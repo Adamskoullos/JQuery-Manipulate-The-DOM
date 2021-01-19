@@ -14,3 +14,6 @@ liTag.appendChild(aTag);
 ul.appendChild(liTag);
 
 
+// move tab Four to be the first tab in the navbar
+// ul.prepend(liTag);
+
