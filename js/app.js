@@ -1,19 +1,16 @@
-// Add tab four to the nav bar
+// Initial function to hold js file from loading until html is loaded
+$(document).ready(function(){
+  
+  // hover on card buttons
+  $('.bottom_button').mouseenter(function(){
+      $(this).css('background-color', 'rgb(100, 100, 100)');
+  });
+  $('.bottom_button').mouseleave(function(){
+      $(this).css('background-color', 'rgb(68, 67, 67)');
+  });
 
-// create elements
-let liTag = document.createElement('li');
-let aTag = document.createElement('a');
+  // show/hide paragraghs
+  $('');
 
-// add attributes & content
-liTag.style.backgroundColor = '#888888';
-aTag.textContent = 'Four';
-
-// grab ul and append
-let ul = document.querySelector('#navbar ul');
-liTag.appendChild(aTag);
-ul.appendChild(liTag);
-
-
-// move tab Four to be the first tab in the navbar
-// ul.prepend(liTag);
+});
 

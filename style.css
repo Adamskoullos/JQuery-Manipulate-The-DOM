@@ -3,7 +3,8 @@ body {
 	/*background-image: url(img/code-institute.jpg);
  	background-size: cover;
  	color: #ffffff;*/
- 	background-color: #eee;
+     background-color: rgb(68, 67, 67);
+     color: rgb(199, 199, 199); 
 }
 
 h1{
@@ -34,11 +35,11 @@ div {
 	border-radius: 4px;
 	display: block;
 	width: 100%;
-	background-color:rgba(129, 187, 201,.85);
+	background-color:rgb(68, 67, 67);
 	text-align: center;
 	padding: 1em .75em;
 	text-decoration: none;
-	color: #fff;
+	color: rgb(199, 199, 199);
 }
 
 .card_bottom {
@@ -75,7 +76,7 @@ div {
 	min-width: 240px; /**/
 	margin: 10px;
 	padding: 20px;
-	background-color: #fff;
+	background-color: rgb(56, 56, 56);
 }
 
 .highlight_stream {
@@ -98,7 +99,7 @@ Navigation
 
 nav {
 	font-family: roboto;
-	background-color: #eee;
+	background-color: rgb(56, 56, 56);
 	margin: 30px auto;
 	width: 100%;
 }
